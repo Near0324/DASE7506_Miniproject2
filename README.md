@@ -11,8 +11,8 @@ training or tuning. Standard Training and Evaluation Commands (executed in code/
 (2) Training: python train.py --data-dir data --checkpoint runs/model_bundle.npz --seed 2026;
 
 (3) Test prediction: python predict.py --method submission.py --checkpoint
-runs/model_bundle.npz --split test --output runs/test-predictions.json;  
+runs/model_bundle.npz --split test --output runs/test-predictions.json;
 
-(4) Scoring: python score_predictions.py --split test --predictions runs/test-predictions.json -- output runs/test-score.json; 
+(4) Scoring: python score_predictions.py --split test --predictions runs/test-predictions.json -- output runs/test-score.json;
 
 (5) Ablations: python evaluation.py --data-dir data --checkpoint runs/model_bundle.npz --output runs/ablation_results.json.
