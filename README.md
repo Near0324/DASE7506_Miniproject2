@@ -6,7 +6,7 @@ requirements.txt) and fixed seed --seed 2026. All training uses exclusively the 
 hyperparameter selection uses exclusively the validation split; no test reference answers are used in
 training or tuning. Standard Training and Evaluation Commands (executed in code/):
 
-(1) Data check: python check_data.py;  
+(1) Data check: python check_data.py;
 
 (2) Training: python train.py --data-dir data --checkpoint runs/model_bundle.npz --seed 2026;
 
